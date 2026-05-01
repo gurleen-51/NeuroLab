@@ -12,7 +12,7 @@ app.use(express.json());
 
 // API route
 app.get('/api/health', (req, res) => {
-    res.json({ status: 'ok', message: 'NeuroLab Backend is running' });
+    res.json({ status: 'ok', message: 'NeuroVerse Backend is running' });
 });
 
 app.listen(PORT, () => {

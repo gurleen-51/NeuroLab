@@ -49,7 +49,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
         <div className="flex items-center justify-between p-4 border-b border-slate-700/50">
           <div className="flex items-center space-x-2 text-cyan-400">
             <Cpu size={28} />
-            <span className="text-xl font-bold font-mono tracking-wider">NEUROLAB</span>
+            <span className="text-xl font-bold font-mono tracking-wider">NEUROVERSE</span>
           </div>
           <button className="md:hidden text-slate-300 hover:text-white" onClick={toggleSidebar}>
             <X size={24} />
@@ -117,7 +117,7 @@ function Layout() {
           </button>
           <div className="ml-4 flex items-center space-x-2 text-cyan-400 font-mono font-bold tracking-wider">
             <Cpu size={20} />
-            <span>NEUROLAB</span>
+            <span>NEUROVERSE</span>
           </div>
         </header>
         

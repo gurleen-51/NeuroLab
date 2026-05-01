@@ -4,7 +4,7 @@ import { MessageSquare, X, BrainCircuit, Sparkles, ChevronRight } from 'lucide-r
 import { useLocation } from 'react-router-dom';
 
 const explanations = {
-  '/': "Welcome to NeuroLab! I'm your AI assistant. Choose a lab to get started with interactive neural network experiments.",
+  '/': "Welcome to NeuroVerse! I'm your AI assistant. Choose a lab to get started with interactive neural network experiments.",
   '/hopfield': "This is the Hopfield Network Lab. It acts as an associative memory. Try drawing a pattern, save it, and then add noise. The network will use its saved weights (Hebbian learning) to pull the corrupted image back to its lowest energy state—your original pattern!",
   '/rnn': "Here in the RNN Lab, you can see how sequences are processed over time. Notice how the 'Hidden State' (memory) is passed to the next step. If you toggle the Vanishing Gradient simulation, you'll see why standard RNNs struggle with long sequences (the gradient signal degrades), which is why LSTMs were invented!",
   '/cnn': "Welcome to the CNN Lab. Convolutional Neural Networks use 'Kernels' (small matrices) that slide (convolve) over an image to detect features like edges. Watch how different matrices highlight different aspects of the same input numbers."
