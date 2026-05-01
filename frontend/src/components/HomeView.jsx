@@ -93,7 +93,7 @@ export default function HomeView() {
           See · Understand · Calculate
         </div>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-white drop-shadow-lg">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Neuro</span>Lab
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Neuro</span>Verse
         </h1>
         <p className="text-lg md:text-xl text-slate-300 mb-4 max-w-2xl mx-auto font-light leading-relaxed">
           An interactive deep learning playground combining real-time visualization, step-by-step mathematics, and hands-on experimentation.
